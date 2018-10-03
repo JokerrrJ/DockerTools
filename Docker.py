@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
+
 import etcd,docker,json,time
 import optparse,os,sys
 from docker import errors
+
 if sys.getdefaultencoding() != 'utf-8':
     reload(sys)
     sys.setdefaultencoding('utf-8')
