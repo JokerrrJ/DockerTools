@@ -72,11 +72,9 @@ def docker_create_container_type_cpu(Image,Volume,Name,Bridge,Address,Gateway,Me
     Hostname = read_hostname(Address)
     Docker_image = docker_images(Image)
     if not Cpu:
-        print(type(Cpu))
         docker_create_container_volume(Image,Volume,Name,Bridge,Address,Gateway,Memory,Cpu,Hostname,Docker_image)
     else:
         Cpu = int(Cpu)
-        print(type(Cpu))
         docker_create_container_volume(Image,Volume,Name,Bridge,Address,Gateway,Memory,Cpu,Hostname,Docker_image)
 
 def docker_create_container(Image,Volume,Name,Bridge,Address,Gateway,Memory,Cpu,Hostname,Binds):
