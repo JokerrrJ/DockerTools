@@ -6,5 +6,10 @@ yum install libffi libffi-devel python-devel
 git clone https://github.com/jplana/python-etcd.git                                                                                
 cd python-etcd                                                                                                                     
 python setup.py install                                                                                                            
-其中python里docker的安装方法是                                                                                                       
-easy_install docker-py                                                                                                             
+                                                                                                                                          
+python里docker的安装方法:                                                                                                                  
+easy_install docker-py                                                                                                                   
+
+hosts_config文件hosts填写格式：                                                                                                           
+172.16.200.111:data1                                                                                                                      
+172.16.200.112:data2                                                                                                                      
