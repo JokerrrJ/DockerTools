@@ -13,3 +13,6 @@ easy_install docker-py
 hosts_config文件hosts填写格式：                                                                                                           
 172.16.200.111:data1                                                                                                                      
 172.16.200.112:data2                                                                                                                      
+                                                                                                                                          
+使用方式：                                                                                                                                 
+python Docker.py -h                                                                                                                       
